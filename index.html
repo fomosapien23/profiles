@@ -11,33 +11,61 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        text-align: center;
+        color: white;
+        font-family:cursive;
       }
       #logo {
         margin: auto;
-        width: 700px;
-        height: 500px;
+        width: 750px;
+        height: 730px;
         border-radius: 50px;
-        padding: 120px;
-        background-color: black;
+      
+        background-color: rgb(16, 15, 15);
       }
+      /* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+} */
       #main {
         
         width: 200px;
         margin: auto;
       }
       img {
+       
         height: 160px;
+        width: 160px;
+        transition: transform .2s;
+        margin-left: 40px;
+        margin-right: 40px;
         padding: 20px;
       }
+      img:hover{
+       
+        -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+      }
+     #pic{
+      margin: auto;
+     }
      
+
     </style>
   </head >
   <body>
+    
     <div id="logo">
       <div id="main">
+        
         <a href="https://www.linkedin.com/in/rohan-rai-020b25249"
-          ><img src="rohan.png" alt=""
+          ><img src="rohan.png" alt="" id="pic" class="zoom"
         /></a>
+        <h1>Rohan Rai</h1>
       </div>
       <table align="center">
         <tr>
